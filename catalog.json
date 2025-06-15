@@ -1,0 +1,92 @@
+{
+    "version": "1.0.0",
+    "last_updated": "2024-12-15T19:30:00Z",
+    "templates": {
+        "brave-search": {
+            "name": "brave-search",
+            "version": "1.0.0",
+            "description": "Brave Search API integration",
+            "author": "MCP-Forge",
+            "tags": [
+                "search",
+                "web",
+                "api"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "official",
+            "path": "official/brave-search.json"
+        },
+        "filesystem": {
+            "name": "filesystem",
+            "version": "1.0.0",
+            "description": "Local filesystem access",
+            "author": "MCP-Forge",
+            "tags": [
+                "filesystem",
+                "files"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "official",
+            "path": "official/filesystem.json"
+        },
+        "github": {
+            "name": "github",
+            "version": "1.0.0",
+            "description": "GitHub API integration",
+            "author": "MCP-Forge",
+            "tags": [
+                "github",
+                "api"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "official",
+            "path": "official/github.json"
+        },
+        "postgres": {
+            "name": "postgres",
+            "version": "1.0.0",
+            "description": "PostgreSQL database connection",
+            "author": "MCP-Forge",
+            "tags": [
+                "database",
+                "postgresql"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "official",
+            "path": "official/postgres.json"
+        },
+        "sqlite": {
+            "name": "sqlite",
+            "version": "1.0.0",
+            "description": "SQLite database connection",
+            "author": "MCP-Forge",
+            "tags": [
+                "database",
+                "sqlite"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "official",
+            "path": "official/sqlite.json"
+        }
+    }
+}
