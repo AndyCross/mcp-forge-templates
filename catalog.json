@@ -71,6 +71,27 @@
             "category": "official",
             "path": "official/postgres.json"
         },
+        "playwright": {
+            "name": "playwright",
+            "version": "1.0.0",
+            "description": "Browser automation and testing with Playwright",
+            "author": "Execute Automation",
+            "tags": [
+                "automation",
+                "testing",
+                "browser",
+                "web",
+                "playwright",
+                "community"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "community",
+            "path": "community/playwright.json"
+        },
         "rightmove": {
             "name": "rightmove",
             "version": "1.0.0",

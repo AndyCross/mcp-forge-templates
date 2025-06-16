@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Browser automation and testing with Playwright",
+  "author": "Execute Automation",
+  "tags": ["automation", "testing", "browser", "web", "playwright", "community"],
+  "platforms": ["windows", "macos", "linux"],
+  "variables": {},
+  "config": {
+    "command": "npx",
+    "args": ["-y", "@executeautomation/playwright-mcp-server"]
+  },
+  "requirements": {
+    "nodejs": ">=18.0.0"
+  },
+  "setup_instructions": "This MCP server provides browser automation capabilities using Playwright. It allows you to automate Chrome, Firefox, and Safari browsers for testing, web scraping, and other automation tasks. The server includes tools for page navigation, element interaction, screenshot capture, and more. Ensure you have sufficient system resources for running browser instances."
+} 
