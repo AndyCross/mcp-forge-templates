@@ -1,0 +1,17 @@
+{
+  "name": "rightmove",
+  "version": "1.0.0",
+  "description": "UK property search and data access via Rightmove.co.uk",
+  "author": "jmountifield",
+  "tags": ["property", "real-estate", "uk", "search", "web-scraping", "community"],
+  "platforms": ["windows", "macos", "linux"],
+  "variables": {},
+  "config": {
+    "command": "npx",
+    "args": ["-y", "rightmove-mcp-server"]
+  },
+  "requirements": {
+    "nodejs": ">=18.0.0"
+  },
+  "setup_instructions": "This MCP server provides access to UK property data from Rightmove.co.uk. It includes tools for property search, detailed property information, and area statistics. The server uses web scraping to access public Rightmove data, so please use responsibly and consider rate limiting for production use. No API key or authentication required."
+} 

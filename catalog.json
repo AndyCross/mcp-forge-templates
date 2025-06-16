@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "last_updated": "2024-12-15T19:30:00Z",
+    "last_updated": "2025-01-16T12:00:00Z",
     "templates": {
         "brave-search": {
             "name": "brave-search",
@@ -70,6 +70,27 @@
             ],
             "category": "official",
             "path": "official/postgres.json"
+        },
+        "rightmove": {
+            "name": "rightmove",
+            "version": "1.0.0",
+            "description": "UK property search and data access via Rightmove.co.uk",
+            "author": "jmountifield",
+            "tags": [
+                "property",
+                "real-estate",
+                "uk",
+                "search",
+                "web-scraping",
+                "community"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "community",
+            "path": "community/rightmove.json"
         },
         "sqlite": {
             "name": "sqlite",
