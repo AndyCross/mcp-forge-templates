@@ -20,6 +20,29 @@
             "category": "official",
             "path": "official/brave-search.json"
         },
+        "alphavantage": {
+            "name": "alphavantage",
+            "version": "1.0.0",
+            "description": "Alpha Vantage financial data API integration for stocks, forex, and cryptocurrency market data",
+            "author": "MCP-Forge Community",
+            "tags": [
+                "finance",
+                "stocks",
+                "api",
+                "market-data",
+                "cryptocurrency",
+                "forex",
+                "web",
+                "community"
+            ],
+            "platforms": [
+                "macos",
+                "linux",
+                "windows"
+            ],
+            "category": "community",
+            "path": "community/alphavantage.json"
+        },
         "filesystem": {
             "name": "filesystem",
             "version": "1.0.0",

@@ -1,0 +1,33 @@
+{
+  "name": "alphavantage",
+  "version": "1.0.0",
+  "description": "Alpha Vantage financial data API integration for stocks, forex, and cryptocurrency market data",
+  "author": "MCP-Forge Community",
+  "tags": [
+    "finance",
+    "stocks",
+    "api",
+    "market-data",
+    "cryptocurrency",
+    "forex",
+    "web",
+    "community"
+  ],
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "variables": {
+    "api_key": {
+      "type": "string",
+      "description": "Your Alpha Vantage API key (get one free at https://www.alphavantage.co/support/#api-key)",
+      "required": true
+    }
+  },
+  "config": {
+    "url": "https://mcp.alphavantage.co/mcp?apikey={{api_key}}"
+  },
+  "requirements": {},
+  "setup_instructions": "1. Sign up for a free API key at https://www.alphavantage.co/support/#api-key\n2. The free tier includes 25 requests per day and 5 requests per minute\n3. This MCP server provides access to real-time and historical stock prices, forex rates, cryptocurrency data, technical indicators, and fundamental data"
+}
